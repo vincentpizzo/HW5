@@ -1,0 +1,18 @@
+body { background-color: yellow;
+		color: black;
+		}
+		
+.cssgridview { width: auto;
+			margin: 5px 0 10px 0;
+			border: dashed;
+			border-collapse: collapse;
+			}
+.cssgridview td { padding: 10px;
+				border: dashed;
+				}
+.cssgridview th { padding: 10px;
+				color: #fff;
+				}
+.cssgridview .alt { background-color: gray;
+			}
+	
