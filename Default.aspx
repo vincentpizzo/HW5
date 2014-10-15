@@ -10,6 +10,27 @@
     <form id="form1" runat="server">
     <div>
     
+        Loan Calculator<br />
+        <br />
+        Loan Amount:<br />
+        <asp:TextBox ID="tbLoanAmt" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Annual Interest Percent:<br />
+        <asp:TextBox ID="tbAnnualInterest" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Loan Term (in yrs):<br />
+        <asp:TextBox ID="tbLoanTerm" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="btnCalcPmt" runat="server" Text="Calculate" />
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btnClear" runat="server" Text="Clear" />
+        <br />
+        <br />
+        <br />
+    
     </div>
     </form>
 </body>

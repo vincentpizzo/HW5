@@ -1,5 +1,11 @@
-﻿'Be sure to import system.data so you can create datatables on the fly.
-Imports System.Data
+﻿Imports System.Data
+
+Partial Class _Default
+    Inherits System.Web.UI.Page
+End Class
+
+'Be sure to import system.data so you can create datatables on the fly.
+
 
 Partial Class _Default
     Inherits System.Web.UI.Page
@@ -76,8 +82,5 @@ Partial Class _Default
 
         loanGridView.DataSource = loanAmortTbl
         loanGridView.DataBind()
-
-Partial Class _Default
-    Inherits System.Web.UI.Page
-
+    End Sub
 End Class
